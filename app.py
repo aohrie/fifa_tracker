@@ -9,7 +9,7 @@ def func(pct, allvals):
     return "{:d}".format(absolute)
 
 # Password dictionary for authorized users
-passwords = {"Ali": "cosmic", "Adi": "este", "Sahil": "pfluger"}
+passwords = {"Ali": "123", "Adi": "456", "Sahil": "789"}
 
 # Check if the CSV file exists, if not, create it
 if not os.path.exists("scores.csv"):
